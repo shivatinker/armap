@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		6CD20B6394E7C31E3A8D615C /* Pods_ARMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBEEB3657D217F2D7227115 /* Pods_ARMap.framework */; };
 		CE1BCDD425B8A58700095A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCDD325B8A58700095A96 /* AppDelegate.swift */; };
-		CE1BCDD625B8A58700095A96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCDD525B8A58700095A96 /* SceneDelegate.swift */; };
-		CE1BCDD825B8A58700095A96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCDD725B8A58700095A96 /* ViewController.swift */; };
-		CE1BCDDB25B8A58700095A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1BCDD925B8A58700095A96 /* Main.storyboard */; };
+		CE1BCDD825B8A58700095A96 /* MMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCDD725B8A58700095A96 /* MMainViewController.swift */; };
 		CE1BCDDD25B8A58800095A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1BCDDC25B8A58800095A96 /* Assets.xcassets */; };
 		CE1BCDE025B8A58800095A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1BCDDE25B8A58800095A96 /* LaunchScreen.storyboard */; };
 		CE1BCE1E25B8D5DF00095A96 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCE1D25B8D5DF00095A96 /* Utils.swift */; };
+		CE1BCE2925B9E48000095A96 /* MARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCE2825B9E48000095A96 /* MARViewController.swift */; };
+		CE1BCE3125B9F3F900095A96 /* MMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCE3025B9F3F900095A96 /* MMapViewController.swift */; };
+		CE1BCE3425B9F5E800095A96 /* MContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCE3325B9F5E800095A96 /* MContext.swift */; };
+		CE1BCE3825B9F76A00095A96 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE1BCE3725B9F76A00095A96 /* config.plist */; };
+		CE1BCE3E25BA020000095A96 /* MVerticalBlendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCE3D25BA020000095A96 /* MVerticalBlendView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +25,16 @@
 		7CA63E15D2AF9439890D3181 /* Pods-ARMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMap.release.xcconfig"; path = "Target Support Files/Pods-ARMap/Pods-ARMap.release.xcconfig"; sourceTree = "<group>"; };
 		CE1BCDD025B8A58700095A96 /* ARMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1BCDD325B8A58700095A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE1BCDD525B8A58700095A96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE1BCDD725B8A58700095A96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE1BCDDA25B8A58700095A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE1BCDD725B8A58700095A96 /* MMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMainViewController.swift; sourceTree = "<group>"; };
 		CE1BCDDC25B8A58800095A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1BCDDF25B8A58800095A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE1BCDE125B8A58800095A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE1BCE1D25B8D5DF00095A96 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CE1BCE2825B9E48000095A96 /* MARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MARViewController.swift; sourceTree = "<group>"; };
+		CE1BCE3025B9F3F900095A96 /* MMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMapViewController.swift; sourceTree = "<group>"; };
+		CE1BCE3325B9F5E800095A96 /* MContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MContext.swift; sourceTree = "<group>"; };
+		CE1BCE3725B9F76A00095A96 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		CE1BCE3D25BA020000095A96 /* MVerticalBlendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVerticalBlendView.swift; sourceTree = "<group>"; };
 		D00E92095994A431D9F56171 /* Pods-ARMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMap.debug.xcconfig"; path = "Target Support Files/Pods-ARMap/Pods-ARMap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				CE1BCDD225B8A58700095A96 /* ARMap */,
+				CE1BCE3625B9F6FF00095A96 /* Resources */,
 				CE1BCDD125B8A58700095A96 /* Products */,
 				C2E9B159A25047F7090B6C02 /* Pods */,
 				F9955793453223486C8F8593 /* Frameworks */,
@@ -75,15 +82,25 @@
 			isa = PBXGroup;
 			children = (
 				CE1BCDD325B8A58700095A96 /* AppDelegate.swift */,
-				CE1BCDD525B8A58700095A96 /* SceneDelegate.swift */,
-				CE1BCDD725B8A58700095A96 /* ViewController.swift */,
-				CE1BCDD925B8A58700095A96 /* Main.storyboard */,
 				CE1BCDDC25B8A58800095A96 /* Assets.xcassets */,
 				CE1BCDDE25B8A58800095A96 /* LaunchScreen.storyboard */,
 				CE1BCDE125B8A58800095A96 /* Info.plist */,
 				CE1BCE1D25B8D5DF00095A96 /* Utils.swift */,
+				CE1BCDD725B8A58700095A96 /* MMainViewController.swift */,
+				CE1BCE2825B9E48000095A96 /* MARViewController.swift */,
+				CE1BCE3025B9F3F900095A96 /* MMapViewController.swift */,
+				CE1BCE3325B9F5E800095A96 /* MContext.swift */,
+				CE1BCE3D25BA020000095A96 /* MVerticalBlendView.swift */,
 			);
 			path = ARMap;
+			sourceTree = "<group>";
+		};
+		CE1BCE3625B9F6FF00095A96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE1BCE3725B9F76A00095A96 /* config.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F9955793453223486C8F8593 /* Frameworks */ = {
@@ -153,9 +170,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1BCE3825B9F76A00095A96 /* config.plist in Resources */,
 				CE1BCDE025B8A58800095A96 /* LaunchScreen.storyboard in Resources */,
 				CE1BCDDD25B8A58800095A96 /* Assets.xcassets in Resources */,
-				CE1BCDDB25B8A58700095A96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,9 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1BCDD825B8A58700095A96 /* ViewController.swift in Sources */,
+				CE1BCDD825B8A58700095A96 /* MMainViewController.swift in Sources */,
+				CE1BCE3125B9F3F900095A96 /* MMapViewController.swift in Sources */,
 				CE1BCDD425B8A58700095A96 /* AppDelegate.swift in Sources */,
-				CE1BCDD625B8A58700095A96 /* SceneDelegate.swift in Sources */,
+				CE1BCE3425B9F5E800095A96 /* MContext.swift in Sources */,
+				CE1BCE3E25BA020000095A96 /* MVerticalBlendView.swift in Sources */,
+				CE1BCE2925B9E48000095A96 /* MARViewController.swift in Sources */,
 				CE1BCE1E25B8D5DF00095A96 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,14 +238,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE1BCDD925B8A58700095A96 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE1BCDDA25B8A58700095A96 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE1BCDDE25B8A58800095A96 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
