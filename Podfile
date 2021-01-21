@@ -6,6 +6,6 @@ target 'ARMap' do
   use_frameworks!
 
   # Pods for ARMap
-  pod 'GoogleMaps', '4.1.0'
-  pod 'GooglePlaces', '4.1.0'
+  pod 'GoogleMaps', '3.10.0-beta1'
+  pod 'GooglePlaces', '3.10.0-beta1'
 end
