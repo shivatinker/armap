@@ -18,6 +18,7 @@
 		CE1BCE3425B9F5E800095A96 /* MContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCE3325B9F5E800095A96 /* MContext.swift */; };
 		CE1BCE3825B9F76A00095A96 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE1BCE3725B9F76A00095A96 /* config.plist */; };
 		CE1BCE3E25BA020000095A96 /* MVerticalBlendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BCE3D25BA020000095A96 /* MVerticalBlendView.swift */; };
+		CEB43E2925C090A1001AEAF2 /* MSelectTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB43E2825C090A1001AEAF2 /* MSelectTargetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		CE1BCE3325B9F5E800095A96 /* MContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MContext.swift; sourceTree = "<group>"; };
 		CE1BCE3725B9F76A00095A96 /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		CE1BCE3D25BA020000095A96 /* MVerticalBlendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVerticalBlendView.swift; sourceTree = "<group>"; };
+		CEB43E2825C090A1001AEAF2 /* MSelectTargetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSelectTargetViewController.swift; sourceTree = "<group>"; };
 		D00E92095994A431D9F56171 /* Pods-ARMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMap.debug.xcconfig"; path = "Target Support Files/Pods-ARMap/Pods-ARMap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 				CE1BCE3025B9F3F900095A96 /* MMapViewController.swift */,
 				CE1BCE3325B9F5E800095A96 /* MContext.swift */,
 				CE1BCE3D25BA020000095A96 /* MVerticalBlendView.swift */,
+				CEB43E2825C090A1001AEAF2 /* MSelectTargetViewController.swift */,
 			);
 			path = ARMap;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				CE1BCDD425B8A58700095A96 /* AppDelegate.swift in Sources */,
 				CE1BCE3425B9F5E800095A96 /* MContext.swift in Sources */,
 				CE1BCE3E25BA020000095A96 /* MVerticalBlendView.swift in Sources */,
+				CEB43E2925C090A1001AEAF2 /* MSelectTargetViewController.swift in Sources */,
 				CE1BCE2925B9E48000095A96 /* MARViewController.swift in Sources */,
 				CE1BCE1E25B8D5DF00095A96 /* Utils.swift in Sources */,
 			);

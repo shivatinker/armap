@@ -97,6 +97,7 @@ public class MARViewControllerImpl: MARViewController {
     public init(context: MContext) {
         self.context = context
         sceneView = ARSCNView()
+        sceneView.autoenablesDefaultLighting = true
         super.init(nibName: nil, bundle: nil)
         
         view.addSubview(sceneView)
