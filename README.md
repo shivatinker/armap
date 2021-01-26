@@ -16,3 +16,5 @@ You can change radar's zoom with slider on AR part, and move the line between vi
 - Run `pod install` in root directory
 - Open `Resources/config.plist` file, and change `YOUR_API_KEY` string to your Google API Key, with Google Maps app linked to account. (If you have troubles, contact me in Telegram: `@shivatinker`)
 - Open and Build/Run project using `ARMap.xcworkspace` file
+
+![Screenshot](https://github.com/shivatinker/armap/blob/main/screen.jpg?raw=true)
